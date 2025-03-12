@@ -22,7 +22,6 @@ public partial class MainWindow : Window
 	int current_file = 0;
     public MainWindow()
     {
-        folder = "C:\\Users\\Ajeszny\\Pictures";
 		var folderDialog = new OpenFolderDialog();
 
 		if (folderDialog.ShowDialog() == true)
